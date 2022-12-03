@@ -1,9 +1,9 @@
 var mysql = require('mysql');
 
 
-var rdsUrl = 'replace with endpoint to the RDS';
-var password =  'replace with password to the RDS';
-var user = 'replace with user to the RDS';
+var rdsUrl = 'vya-aurora-database-instance-1.czbwpwm83uag.us-east-1.rds.amazonaws.com';
+var password =  'passworD&7';
+var user = 'admin';
 
 // mysql connection pool
 var rdsPool = mysql.createPool({
